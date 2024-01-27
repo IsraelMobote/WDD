@@ -48,7 +48,7 @@ body {
     background-color: var(--accent1-color);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Amita',serif;
     color: black;
     text-align: center;
@@ -103,4 +103,8 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    margin-top: 30px;
 }
