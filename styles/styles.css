@@ -1,0 +1,60 @@
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+    padding: 1rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+p {
+    padding: 0;
+}
+
+main {
+    width: 50rem;
+    padding: 4rem;
+}
+
+aside {
+    width: 50rem;
+    text-align: center;
+    text-align: center;
+    color: black;
+    background-color: steelblue;
+    padding: 1.2rem;
+    border: 3px  slategray;
+}
+
+aside img {
+    
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px steelblue;
+    text-align: center;
+}
+
+/* Class Selectors */
+
