@@ -65,13 +65,17 @@ main {
 aside{
     width: 50em;
     text-align: center;
+    position: relative;
+    bottom: 20px;
+
 }
 
 
 aside>h2 {
     margin-top: 100px;
-    position: relative;
-    bottom: 20px;
+    position: absolute;
+    right: 15em;
+    bottom: 13em;
 
 }
 
@@ -79,6 +83,7 @@ aside>h2 {
 aside>img {
     max-width: 200px;
     min-height: 50px;
+    margin-top: 50px;
     margin-bottom: 10px;
 
 }
