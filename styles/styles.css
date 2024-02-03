@@ -71,7 +71,7 @@ aside{
 }
 
 
-aside>h2 {
+aside h2 {
     margin-top: 100px;
     position: absolute;
     right: 15em;
