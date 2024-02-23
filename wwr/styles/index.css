@@ -141,7 +141,7 @@ h4 {
     display: grid;
     column-gap: 100px;
     grid-template-columns: 1fr 1fr;
-    padding: 5rem;
+    padding: 3rem;
     background-color: aliceblue;
 }
 
@@ -179,8 +179,7 @@ form {
     background-color: hsl(221, 43%, 67%);
     width: 25rem;
     height: fit-content;
-    overflow: scroll;
-    margin: 0 auto 200px;
+    margin: auto ;
     padding: 3em;
     display: grid;
     border: 2px solid hsl(220, 73%, 7%);
@@ -217,6 +216,12 @@ label {
     text-align: start;
     padding-right: 0.5em;
     padding-left: 1.5em;
+}
+
+.label{
+    font-size: large;
+    font-weight: 700;
+    padding: 50px 0;
 }
 
 input
