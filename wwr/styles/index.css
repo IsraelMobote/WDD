@@ -111,77 +111,114 @@ h4 {
 }
 
 .hero {
-    position: relative;
     height: auto;
-    
     margin: auto auto;
     text-align: center;
-    background-color :hsl(256, 79%, 43%)
 }
 
 .hero>h1 {
-    color: hsla(207, 59%, 57%, 0.966);
-    position: absolute;
-    left: 3.8em;
-    top: 150px;
-    font-size: 3.5em;
-    background-color: hsla(69, 70%, 4%, 0.75);
+    color: hsla(61, 90%, 45%, 0.788);
+    font-size: 4.5em;
+    background-color: hsl(256, 79%, 43%);
     
 }
+
+.hero>h2 {
+    color: hsla(64, 78%, 42%, 0.733);
+    font-size: 2.5em;
+    background-color: hsl(256, 79%, 43%);
+    padding: 0;
+    margin-top: -40px;
+    
+}
+
 .hero>img {
     width: 100%;
     height: 400px;
 }
 
-.trips {
+.firstgrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.innergrid>div>img {
+    width: 100px;
+}
+
+.innergrid{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+form {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: hsl(221, 43%, 67%);
+   
+    margin: 0 auto 200px;
+    padding: 3em;
+    display: grid;
+    border: 2px solid hsl(220, 73%, 7%);
+    border-radius: 1em;
     
-    width: auto;
-    margin: 80px 100px;
+
 }
 
-.tripimage{
-    width: 100%;
-    height: auto;
-}
-
-.inner{
+fieldset {
     display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 30px;
+    row-gap: 0.5rem;
+    margin-top: 1.2rem;
+    padding: 1em;
+    border: 3px solid hsl(240, 40%, 98%);
+
 }
 
-.inner>h2{
-    color: navy;
-    font-weight: 800;
-}
-
-.inner>p{
-    font-size: large;
-    font-weight: 900;
-}
-
-table{
-    margin: auto;
-    border: 2px solid black;
-    margin-bottom: 50px ;
-}
-caption{
-    margin: 50px 0 20px;
-    font-size: larger;
+fieldset>legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
     font-weight: 600;
-    color: #ff9f1c;
+    padding: 0.4em;
 }
 
-th,td{
-    border: 1px solid black;
-    margin: 2px;
-    height: 100px;
-    background-color: rgb(176, 223, 241);
-    text-align: center;
-    padding: 0 20px;
+label,
+input,
+button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+label {
+    text-align: start;
+    padding-right: 0.5em;
+    padding-left: 1.5em;
+}
+
+input
+{
+    padding: 0.8em;
+    font-size: 1.2em;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+
+}
+
+button {
+    max-width: 200px;
+    padding: 1em;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: hsl(219, 61%, 24%);
+    color: #fff
 }
 
 aside{
@@ -244,14 +281,3 @@ footer > div > p {
     justify-content: space-evenly;
 }
 
-.wireframe{
-    
-    color: black;
-    font-weight: 400;
-    font-size: 25px;
-    
-}
-
-footer > P {
-    text-align: center;
-}
