@@ -139,11 +139,14 @@ h4 {
 
 .firstgrid{
     display: grid;
+    column-gap: 100px;
     grid-template-columns: 1fr 1fr;
+    padding: 5rem;
+    background-color: aliceblue;
 }
 
 .innergrid>div>img {
-    width: 100px;
+    width: 300px;
 }
 
 .innergrid{
@@ -155,7 +158,9 @@ form {
     grid-column: 1;
     grid-row: 1;
     background-color: hsl(221, 43%, 67%);
-   
+    width: 25rem;
+    height: fit-content;
+    overflow: scroll;
     margin: 0 auto 200px;
     padding: 3em;
     display: grid;
