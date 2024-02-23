@@ -148,6 +148,25 @@ h4 {
 .innergrid>div>img {
     width: 300px;
 }
+.innergrid>div {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#purpose{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.innergrid>div>h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.innergrid>div>p{
+    font-size: large;
+    font-weight: 800;
+}
 
 .innergrid{
     grid-column: 2;
